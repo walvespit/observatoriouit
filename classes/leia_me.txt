@@ -1,0 +1,33 @@
+Documentação telescopio.py
+
+Raphael Adriano de Souza.
+
+########################################################
+#			Instruções   		       #
+#						       #
+# para que o código possa ser executado deverá ser ins-#
+# lado a biblioteca pip azure-storage-blob através do  #
+# comando:					       #
+# pip install azure-storage-blob		       #
+########################################################
+
+
+container que iráirá armazenar as imagens foi pré definido
+como 'container img' 
+
+=====  Funções =====
+
+* CarregaImagem(endereco, nome):
+recebe como parâmetro primeiramente o caminho da imagem e depois o nome que a imagem deverar ser salva no container
+
+*excluirImagem(nome):
+recebe apenas o nome da imagem que deverá ser excluída
+
+*listarImagem()
+não recebe nenhum parâmetro e lista todas as imagens salvas no container 'containerimg'
+
+=====================
+
+Para testar se aimgame está carregada devidamente acesse a url abaixo subistituindo o nome_da_imagem pelo nome que foi definido na função CarregarImagem()
+
+https://observatorioitauna.blob.core.windows.net/containerimg/nome_da_imagem
