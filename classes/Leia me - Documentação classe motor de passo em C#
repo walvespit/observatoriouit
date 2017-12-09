@@ -1,0 +1,30 @@
+Documentação Classe motor.cs
+
+Alisson Agusto Silva Mariano 
+
+Criação do código, uma classe em C# para programação da DragonBoard.
+Controle do ângulo de inclinação do telescópio, usando a classe desenvolvida.
+
+>====  Funções =====<
+//Contrutor Motor
+* Motor(porta_pulso,porta_habilitada,porta_direção);
+  Recebe três parametros, sendo: a porta do pulso, porta habilitada, porta direção, conforme as portas escolhidas, na dragonboard.
+
+* step(Numero_de_passos_motor)
+  Recebe um parametro, com o numero de passo no motor.
+
+* Timer_Tick() 
+  Cronometro, fica ativo o tempo todo, enquanto o motor estiver ligado.
+
+* start()
+  Inicializar cronometro
+
+* stop()
+  para cronometro 
+
+* setDirection(direção)
+  Recebe parametro, com a direção do motor, sendo: (UP,BAIXA).
+
+* setEnabled(Boolean)
+  Recebe paramento, seo motor está ativo(TRUE) ou não(FALSE). 
+
